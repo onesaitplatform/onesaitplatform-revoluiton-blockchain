@@ -12,6 +12,6 @@ To make `flow-engine.json` work, first, you need to create an ontology and call 
 
 <p align="center">
   <a src='https://www.onesaitplatform.com/'>
-    <img src='diagram.png'/>
+    <img src='diagram.PNG'/>
   </a>
 </p>
