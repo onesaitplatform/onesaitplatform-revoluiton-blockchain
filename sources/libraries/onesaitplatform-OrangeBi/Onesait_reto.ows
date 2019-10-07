@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="Onesait_reto" version="2.0">
+	<nodes>
+		<node id="0" name="Onesaitplatform Client" position="(153.0, 127.88888888888891)" project_name="onesaitplatform-orange3" qualified_name="orangecontrib.onesaitplatform.widgets.ospclient.OspClient" title="Onesaitplatform Client eth_mainnet 58fafd147a3e4ba3b6227604b5e36942" version="" />
+		<node id="1" name="Query" position="(299.0, 150.0)" project_name="onesaitplatform-orange3" qualified_name="orangecontrib.onesaitplatform.widgets.ospquery.OspQuery" title="Query" version="" />
+		<node id="2" name="Flat data" position="(450, 150)" project_name="onesaitplatform-orange3" qualified_name="orangecontrib.onesaitplatform.widgets.ospflatdata.OspFlatData" title="Flat data" version="" />
+		<node id="3" name="Save Data" position="(707.0, 150.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owsave.OWSave" title="Save Data" version="" />
+		<node id="4" name="Onesaitplatform Client" position="(142.0, 276.0)" project_name="onesaitplatform-orange3" qualified_name="orangecontrib.onesaitplatform.widgets.ospclient.OspClient" title="Onesaitplatform Client blockchain b8d20e73030a43b3827534a8641ad502" version="" />
+		<node id="5" name="Query" position="(292.0, 276.0)" project_name="onesaitplatform-orange3" qualified_name="orangecontrib.onesaitplatform.widgets.ospquery.OspQuery" title="Query (1)" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Client" sink_node_id="1" source_channel="Client" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Json data" sink_node_id="2" source_channel="Results" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Table data" source_node_id="2" />
+		<link enabled="true" id="3" sink_channel="Client" sink_node_id="5" source_channel="Client" source_node_id="4" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiVgVAAAAYXZvaWRfc3NsX2NlcnRpZmljYXRlcQKJWAoA
+AABjb25uZWN0aW9ucQNjb25lc2FpdHBsYXRmb3JtLmlvdGJyb2tlci5kaWdpdGFsY2xpZW50CkRp
+Z2l0YWxDbGllbnQKcQQpgXEFfXEGKFgEAAAAaG9zdHEHWBcAAABsYWIub25lc2FpdHBsYXRmb3Jt
+LmNvbXEIWAQAAABwb3J0cQlOWBAAAABfQ2xpZW50X190aW1lb3V0cQpOWBAAAABfQ2xpZW50X19w
+cm94aWVzcQtOWBkAAABfQ2xpZW50X19yYWlzZV9leGNlcHRpb25zcQyJWBEAAABfQ2xpZW50X19w
+cm90b2NvbHENWAUAAABodHRwc3EOWB4AAABfQ2xpZW50X19hdm9pZF9zc2xfY2VydGlmaWNhdGVx
+D4lYDAAAAGlzX2Nvbm5lY3RlZHEQiVgLAAAAZGVidWdfdHJhY2VxEV1xEljIAAAAW01vbiBPY3Qg
+IDcgMTM6MjM6NTQgMjAxOV0gQ3JlYXRlZCBjbGllbnQgd2l0aCAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIGlvdC1icm9rZXIgaG9zdDpsYWIub25lc2FpdHBsYXRmb3JtLmNvbSwgcGF0
+aDovaW90LWJyb2tlciwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnQ6ZXRo
+X21haW5uZXQsIHRva2VuOk5vbmVxE2FYCgAAAGlvdF9jbGllbnRxFFgLAAAAZXRoX21haW5uZXRx
+FVgMAAAAaW90X2NsaWVudElkcRZYGAAAAGV0aF9tYWlubmV0OlB5dGhvbkNsaWVudHEXWBAAAABp
+b3RfY2xpZW50X3Rva2VucRhOWAsAAABzZXNzaW9uX2tleXEZTnViWBIAAABjb250cm9sQXJlYVZp
+c2libGVxGohoB2gIaBRoFWgYTlgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEbQzIB2dDLAAIAAAAA
+AH0AAAERAAABvgAAAjYAAACFAAABLwAAAbYAAAIuAAAAAAAAAAAFVnEcWAsAAABfX3ZlcnNpb25f
+X3EdSwF1Lg==
+</properties>
+		<properties format="literal" node_id="1">{'auto_commit': False, 'controlAreaVisible': True, 'ontology': 'eth_mainnet_tx', 'query': 'select c.* from eth_mainnet_tx as c', 'results': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x06\x00\x00\x00o\x00\x00\x01\xa2\x00\x00\x01\x83\x00\x00\x00\x0e\x00\x00\x00\x8d\x00\x00\x01\x9a\x00\x00\x01{\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02?\x00\x00\x01B\x00\x00\x03\x16\x00\x00\x01\x8a\x00\x00\x02G\x00\x00\x01`\x00\x00\x03\x0e\x00\x00\x01\x82\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 1}</properties>
+		<properties format="literal" node_id="3">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filename': 'D:/CODE/OWS/eth_mainnet_transactions.tab', 'filter': 'Tab-separated values (*.tab)', 'last_dir': 'D:/CODE/OWS', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02=\x00\x00\x01\x19\x00\x00\x03i\x00\x00\x01\xb2\x00\x00\x02E\x00\x00\x017\x00\x00\x03a\x00\x00\x01\xaa\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 2}</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiVgVAAAAYXZvaWRfc3NsX2NlcnRpZmljYXRlcQKJWAoA
+AABjb25uZWN0aW9ucQNjb25lc2FpdHBsYXRmb3JtLmlvdGJyb2tlci5kaWdpdGFsY2xpZW50CkRp
+Z2l0YWxDbGllbnQKcQQpgXEFfXEGKFgEAAAAaG9zdHEHWBcAAABsYWIub25lc2FpdHBsYXRmb3Jt
+LmNvbXEIWAQAAABwb3J0cQlOWBAAAABfQ2xpZW50X190aW1lb3V0cQpOWBAAAABfQ2xpZW50X19w
+cm94aWVzcQtOWBkAAABfQ2xpZW50X19yYWlzZV9leGNlcHRpb25zcQyJWBEAAABfQ2xpZW50X19w
+cm90b2NvbHENWAUAAABodHRwc3EOWB4AAABfQ2xpZW50X19hdm9pZF9zc2xfY2VydGlmaWNhdGVx
+D4lYDAAAAGlzX2Nvbm5lY3RlZHEQiVgLAAAAZGVidWdfdHJhY2VxEV1xEljHAAAAW01vbiBPY3Qg
+IDcgMTM6MjM6NTUgMjAxOV0gQ3JlYXRlZCBjbGllbnQgd2l0aCAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIGlvdC1icm9rZXIgaG9zdDpsYWIub25lc2FpdHBsYXRmb3JtLmNvbSwgcGF0
+aDovaW90LWJyb2tlciwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnQ6Ymxv
+Y2tjaGFpbiwgdG9rZW46Tm9uZXETYVgKAAAAaW90X2NsaWVudHEUWAoAAABibG9ja2NoYWlucRVY
+DAAAAGlvdF9jbGllbnRJZHEWWBcAAABibG9ja2NoYWluOlB5dGhvbkNsaWVudHEXWBAAAABpb3Rf
+Y2xpZW50X3Rva2VucRhOWAsAAABzZXNzaW9uX2tleXEZTnViWBIAAABjb250cm9sQXJlYVZpc2li
+bGVxGohoB2gIaBRoFWgYTlgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEbQzIB2dDLAAIAAAAAAH0A
+AAERAAABvgAAAjYAAACFAAABLwAAAbYAAAIuAAAAAAAAAAAFVnEcWAsAAABfX3ZlcnNpb25fX3Ed
+SwF1Lg==
+</properties>
+		<properties format="literal" node_id="5">{'auto_commit': False, 'controlAreaVisible': True, 'ontology': 'blockchain', 'query': 'select c.* from blockchain as c ', 'results': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x06\x00\x00\x00o\x00\x00\x01\xa2\x00\x00\x01\x83\x00\x00\x00\x0e\x00\x00\x00\x8d\x00\x00\x01\x9a\x00\x00\x01{\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
