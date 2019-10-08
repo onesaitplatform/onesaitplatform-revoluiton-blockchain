@@ -3,14 +3,14 @@
 Orange Biolab is a datamining tool easy to use and very powerful to gain insights and prototyping. 
 In a few minutes you can build a complete model for training and testing a large list of Machine Learning algorithms.
 
-An example for blockchain transactions classification is shown below:
+An example of blockchain transactions classification is shown below:
 <p align="center">
   <a src='https://www.onesaitplatform.com/'>
     <img src='Onesait_Reto_Clustering_PCA-KMeans_Prediction_kNN.JPG'/>
   </a>
 </p>
 
-## Ontologies (workflow's origin/destiny)
+## Ontologies (workflow's origin/destination)
 
 With Onesait platform library for OrangeBi you can connect to a previously created ontology (see blockchain service) 
 and extract blockchain transactions ready to be proccesed by the workflow.
@@ -45,3 +45,13 @@ With the workflow shown and the dataset eth_mainnet_transactions.tab extracted f
     <img src='kNN_C2_predictions.png'/>
   </a>
 </p>
+
+## Next steps
+
+At this very moment we don't know what clusters C1-C2 means, we only know that there are differrences enough between transactions belonging to cluster C1 and C2 so we can mark them out and predict those marks on new transactions. 
+
+Next steps would be investigate those differences and determine their meaning. 
+
+Using larger datasets (about millions of transactions), modifying algorithm's parametrization and deeper analysis of features (input columns) will reveal new clusters and interesting behaviors for sure.
+
+Enjoy!
